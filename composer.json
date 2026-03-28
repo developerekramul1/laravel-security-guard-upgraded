@@ -1,0 +1,22 @@
+{
+  "name": "ekramul/laravel-security-guard",
+  "description": "Full Laravel security scanner with malware detection, quarantine & dashboard",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ekramul\\SecurityGuard\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ekramul\\SecurityGuard\\SecurityGuardServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10|^11|^12"
+  }
+}
